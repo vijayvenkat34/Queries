@@ -1,0 +1,1 @@
+select district,sum(apr) from data where parameter='Malaria reported in children below 5 years of age' group by district;
